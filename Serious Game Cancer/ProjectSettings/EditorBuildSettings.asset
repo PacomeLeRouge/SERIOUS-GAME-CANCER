@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PrivateMulti/PartieLongue_PrivateMulti.unity
     guid: ed6cac0cfdf239e4fb22bb43699a5b95
+  - enabled: 1
+    path: Assets/Scenes/PrivateSolo/PartieCourte_PrivateSolo.unity
+    guid: 3c404ad8978f846129e0fbb2e185f2cf
+  - enabled: 1
+    path: Assets/Scenes/PrivateSolo/PartieLongue_PrivateSolo.unity
+    guid: 37e6ca81d00ae44ffaa3fbcdf615a060
+  - enabled: 1
+    path: Assets/Scenes/PublicMulti/PartieCourte_PublicMulti.unity
+    guid: 77ff0398c38fa489abb37a76452cbf96
+  - enabled: 1
+    path: Assets/Scenes/PublicMulti/PartieLongue_PublicMulti.unity
+    guid: 45db575eb44de49de92a15ff13d5cb70
+  - enabled: 1
+    path: Assets/Scenes/PublicSolo/PartieCourte_PublicSolo.unity
+    guid: 904fe4104e6724495aa105d812bb4c36
+  - enabled: 1
+    path: Assets/Scenes/PublicSolo/PartieLongue_PublicSolo.unity
+    guid: fabcadd106e70468a8addb17689832b1
   m_configObjects: {}
