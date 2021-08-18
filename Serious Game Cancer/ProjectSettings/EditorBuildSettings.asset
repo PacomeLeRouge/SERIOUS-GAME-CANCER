@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipale.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
-    path: Assets/Scenes/PartieCourte 1.unity
+    path: Assets/Scenes/PrivateMulti/PartieCourte_PrivateMulti.unity
     guid: 1864229fb1bb6dc4aa774a715f767239
   - enabled: 1
-    path: Assets/Scenes/PartieLongueV2.unity
+    path: Assets/Scenes/PrivateMulti/PartieLongue_PrivateMulti.unity
     guid: ed6cac0cfdf239e4fb22bb43699a5b95
   m_configObjects: {}
