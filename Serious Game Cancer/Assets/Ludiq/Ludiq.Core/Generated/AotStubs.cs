@@ -316,9 +316,7 @@ namespace Ludiq.Generated.Aot
 	// UnityEngine.HingeJoint2D.op_Equality
 	// UnityEngine.HingeJoint2D.op_Implicit
 	// UnityEngine.HingeJoint2D.op_Inequality
-	// UnityEngine.Input.GetTouch
 	// UnityEngine.Input.mousePosition
-	// UnityEngine.Input.touchCount
 	// UnityEngine.Joint.op_Equality
 	// UnityEngine.Joint.op_Implicit
 	// UnityEngine.Joint.op_Inequality
@@ -4235,32 +4233,12 @@ namespace Ludiq.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// UnityEngine.Input.GetTouch
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Input_GetTouch()
-		{
-			int arg0 = default(int);
-			global::UnityEngine.Input.GetTouch(arg0);
-			global::Ludiq.StaticFunctionInvoker<int, UnityEngine.Touch> optimized = new global::Ludiq.StaticFunctionInvoker<int, UnityEngine.Touch>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
 		// UnityEngine.Input.mousePosition
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void UnityEngine_Input_mousePosition()
 		{
 			global::UnityEngine.Vector3 accessor = global::UnityEngine.Input.mousePosition;
 			global::Ludiq.StaticPropertyAccessor<UnityEngine.Vector3> optimized = new global::Ludiq.StaticPropertyAccessor<UnityEngine.Vector3>(default(global::System.Reflection.PropertyInfo));
-			optimized.GetValue(null);
-		}
-		
-		// UnityEngine.Input.touchCount
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Input_touchCount()
-		{
-			int accessor = global::UnityEngine.Input.touchCount;
-			global::Ludiq.StaticPropertyAccessor<int> optimized = new global::Ludiq.StaticPropertyAccessor<int>(default(global::System.Reflection.PropertyInfo));
 			optimized.GetValue(null);
 		}
 		
